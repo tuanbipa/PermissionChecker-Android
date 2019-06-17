@@ -8,7 +8,7 @@ public class PermissionChecker {
     public static void check(Activity context, String[] permissions, PermissionListener permissionListener){
         PermissionProvider permissionProvider = new PermissionProvider(context, permissions);
         if (permissionProvider.checkPermission()){
-            permissionListener.onGranted();
+            permissionListener.onPermissionGranted();
             return;
         }
 
