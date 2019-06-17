@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PermissionChecker-Android</string>
+    <string name="grant">Grant</string>
+</resources>
